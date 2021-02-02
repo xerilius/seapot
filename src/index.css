@@ -11,10 +11,12 @@ html {
   /* font-family: 'Raleway', sans-serif; */
   /* font-family: 'Playfair Display', serif; */
   background-color: grey;
-  background-image: url("./assets/darkwood.png")
+  background-image: url("./assets/darkwood.png");
+  background-position: center; 
 
 }
 body {
   box-sizing: border-box;
-  overflow-x: hidden;
+  padding: 30px 0;
+  height: 100vh;
 }
