@@ -4,10 +4,10 @@ export default function Navbar() {
     return (
         <div className="navbar">
             <div className="navbar-links">
-                 <div>Home</div>
-                <div>Menu</div>
-                <div className="">Locations</div>
-                <div>About</div>
+                <div className="home">Home</div>
+                <div className="menu">Menu</div>
+                <div className="locations">Locations</div>
+                <div className="about">About</div>
             </div>
 
             <div className="logo-container">
@@ -22,7 +22,7 @@ export default function Navbar() {
             </div>
 
             <div className="navbar-links">
-                <div>Franchise</div>
+                <div className="franchise">Franchise</div>
                 <div className="reservation">Reservation</div>
                 <div className="more">
                     More <i class="las la-angle-down"></i> 
