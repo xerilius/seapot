@@ -19,4 +19,16 @@ body {
   box-sizing: border-box;
   padding: 30px 0;
   height: 100vh;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background:#121516;
+}
+::-webkit-scrollbar-thumb {
+  background: #4d4d4d;
+  content: "the shoppies";
+  border-radius: 3px;
 }

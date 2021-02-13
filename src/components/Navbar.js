@@ -1,13 +1,14 @@
 import React from 'react';
 import './css/Navbar.css';
+
+
 export default function Navbar() {
     return (
         <div className="navbar">
             <div className="navbar-links">
                 <div className="home">Home</div>
-                <div className="menu">Menu</div>
-                <div className="locations">Locations</div>
                 <div className="about">About</div>
+                <div className="menu">Menu</div>
             </div>
 
             <div className="logo-container">
@@ -22,17 +23,18 @@ export default function Navbar() {
             </div>
 
             <div className="navbar-links">
-                <div className="franchise">Franchise</div>
-                <div className="reservation">Reservation</div>
+                <div className="locations">Locations</div>
                 <div className="more">
-                    More <i class="las la-angle-down"></i> 
+                   More <i class="las la-angle-down"></i> 
                     <div className="more-dropdown">
+                        <div className="reservation">Reservations</div>
+                        <div>Franchise</div>
                         <div>Careers</div>
-                        <div>Gallery</div>
-                        <div>Blog</div>
+                        <div>Blog</div>  
                     </div>
                 </div>
             </div>
+
         </div>
             
     )

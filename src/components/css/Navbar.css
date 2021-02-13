@@ -2,12 +2,11 @@
     position: fixed;
     top: 30px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.582);
+    background: rgba(0, 0, 0, 0.582);
     height: 80px;
-    /* border-bottom: 2px solid black; */
     padding: 10px;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -20,6 +19,7 @@
     top: -25px;
     height: 115px;
     border: 5px solid white;
+    border-radius: 10px;
     background-color: rgb(20, 20, 20);
     display:flex;
     flex-direction: column;
@@ -39,7 +39,6 @@
     right: -83px;
     font-size: 2rem;
 }
-
 .navbar-links {
     display: flex;
     justify-content: space-between;
@@ -48,9 +47,6 @@
 .navbar-links > * {
     margin:0 10px;
     padding: 10px;
-}
-.reservation {
-    background-color: rgb(255, 183, 0);
 }
 .est {
    font-size: 1.5rem;
@@ -65,18 +61,52 @@
     margin: 0 15px;
 }
 .more-dropdown {
-    position: absolute;
-    top: 252px;
-    right: 0px;
+    position: absolute; 
+    top: 249px;
+    right: -65px;
     background-color: rgba(0, 0, 0, 0.582);
     height: 120px;
     visibility: hidden;
-    padding: 10px 20px; 
+    padding: 0 20px; 
 }
 .more-dropdown > * {
     padding: 5px 0;
 }
-
+.about {
+    position: relative;
+}
+.home::before,
+.menu::before, 
+.locations::before, 
+.about::before,
+.franchise::before, 
+.locations::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: 70px;
+    width: 65px;
+    background-color:white;
+    visibility: visible;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.home:hover::before,
+.menu:hover::before, 
+.locations:hover::before, 
+.about:hover::before,
+.franchise:hover::before {
+    background-color: white;
+    visibility: visible;
+    transform: scaleX(1);
+    z-index: -1;
+}
+.about::before {
+    top: 49px;
+}
+.locations::before, .franchise::before {
+    width: 115px;
+}
 .more:hover .more-dropdown{
     visibility: visible;
-  }
+}
