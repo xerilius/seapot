@@ -108,6 +108,7 @@
             "price": "MP"  
         }
     ],
+    
     "drinks": {
         "tea": [
             { 
@@ -139,7 +140,6 @@
                 "price": "1.99"
             }
         ],
-    
         "juice": [
             { 
                 "name": "Cranberry",
@@ -178,7 +178,6 @@
                 "price": "4.90"
             }
         ],
-    
         "fountain": [
             { 
                 "name": "Pepsi",
@@ -210,6 +209,7 @@
             }
         ]
     },
+
     "dessert" : {
         "macaron": [
             "Cookies 'N Cream", 
