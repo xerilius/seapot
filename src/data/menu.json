@@ -1,0 +1,225 @@
+{
+    "soupbases" : [
+        {   "no": 1,
+            "name": "Spicy House Soup",
+            "description": "Made from high quality red chilli peppers, spices and Sichuan peppercorns. Taste of Sichuan style, you can also adjust the level of spiceness."
+        },
+        {   "no": 2,
+            "name": "Miso Soup",
+            "description": "We took a classic miso soup recipe and gave it a twist of our own. Our miso soup is packed with the same great umami flavor, but with even more nutrients from our chicken bone broth."
+        },
+        {   "no": 3,
+            "name": "Healthy Herb Soup",
+            "description": "Chinese herbs boiled in a broth that was made with chicken bones that have been boiled down until the dissolve into a cloudy white broth."
+        },
+        {   "no": 4,
+            "name": "Thai Pot (Vegetarian, Spicy)",
+            "description": "Tom yum is characterized by its distinct hot and sour flavors, with fragrant thai spices and herbs generously used in the broth. The basic broth is made up of stock and fresh ingredients such as lemongrass, kaffir lime leaves, galangal, lime juice and crushed chili peppers."
+        },
+        {   "no": 5,
+            "name": "Tomato Soup",
+            "description": "Organic tomato soup gives you a sweet an sour taste, great for vegetarians."
+        },
+        {   "no": 6,
+            "name": "Curry Pot",
+            "description": "Curry pot is a sweet and spicy paste blend made with tumeric and curry powder pounded together with coriander, cumin, lemongrass, galangal, mixed with a bone broth."
+        },
+        {   "no": 7,
+            "name": "Creamy Milk",
+            "description": "Has a white creamy milk and corn taste."
+        }
+    ],
+
+    "meats": [
+        {   "no": 1,
+            "name": "Chicken Breast",
+            "description": "Thinly sliced free range chicken breast."
+        },
+        {   "no": 2,
+            "name": "Pork Belly",
+            "description": "Thinly sliced and has a nice balance of red meat and fat."
+        },
+        {   "no": 3,
+            "name": "100% Berkshire Pork",
+            "description": "Thinly sliced kurobuto. Leaner but tender. All natural - no hormones and no antibiotics."
+        },
+        {   "no": 4,
+            "name": "New Zealand Lamb",
+            "description": "Thinly sliced, grass fed boneless lamb."
+        },
+        {   "no": 5,
+            "name": "Beef Toro",
+            "description": "All-natural angus beef from Morgan Family's ranch."
+        },
+        {   "no": 6,
+            "name": "Ribeye",
+            "description": "Chef's top selection of natural ribeye which has less fat and a good amount of red meat."
+        },
+        {   "no": 7,
+            "name": "Angus Prime",
+            "description": "100% All-natural. Raised without antibiotics and no  growth hormones. Tender and tasty."
+        }
+    ],
+    
+    "addons": [
+        { 
+            "name": "Live Lobster",
+            "translation": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Live Fish",
+            "translation": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Abalone",
+            "translation": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Live Dungeness Crab",
+            "translation": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Lobster Tail",
+            "translation": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Clam",
+            "translation": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Live Prawn",
+            "translation": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Stone Crab",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Snow Crab Leg",
+            "chinese": "",
+            "price": "MP"  
+        }
+    ],
+    "drinks": {
+        "tea": [
+            { 
+                "name": "Green Tea",
+                "price": "1.00"
+            },
+            { 
+                "name": "Rice Tea",
+                "price": "1.25"
+            },
+            { 
+                "name": "Thai Tea",
+                "price": "3.00"
+            },
+            { 
+                "name": "Herbal Tea",
+                "price": "2.50"
+            },
+            { 
+                "name": "Chrysanthemum Tea",
+                "price": "2.50"
+            },
+            { 
+                "name": "Lemon Iced Tea",
+                "price": "3.50"
+            },
+            { 
+                "name": "Raspberry Iced Tea",
+                "price": "1.99"
+            }
+        ],
+    
+        "juice": [
+            { 
+                "name": "Cranberry",
+                "price": "2.90"
+            },
+            { 
+                "name": "Orange",
+                "price": "2.90"
+            },
+            { 
+                "name": "Mango",
+                "price": "3.90"
+            },
+            { 
+                "name": "Apple",
+                "price": "2.90"
+            },
+            { 
+                "name": "Winter Melon",
+                "price": "3.00"
+            },
+            { 
+                "name": "Sour Plum",
+                "price": "3.00"
+            },
+            { 
+                "name": "Honey Pomelo",
+                "price": "3.50"
+            },
+            { 
+                "name": "Sweet Pear",
+                "price": "3.50"
+            },
+            { 
+                "name": "Coconut",
+                "price": "4.90"
+            }
+        ],
+    
+        "fountain": [
+            { 
+                "name": "Pepsi",
+                "price": "1.99"
+            },
+            { 
+                "name": "Diet Pepsi",
+                "price": "1.99"
+            },
+            { 
+                "name": "Dr. Pepper",
+                "price": "1.99"
+            },
+            { 
+                "name": "Sprite",
+                "price": "1.99"
+            },
+            { 
+                "name": "Ginger Ale",
+                "price": "1.99"
+            },
+            { 
+                "name": "Lemonade",
+                "price": "1.99"
+            },
+            { 
+                "name": "Fanta",
+                "price": "1.99"
+            }
+        ]
+    },
+    "dessert" : {
+        "macaron": [
+            "Cookies 'N Cream", 
+            "Strawberry Shortcake",
+            "Salted Caramel",
+            "Coffee Hazelnut",
+            "Passion Fruit",
+            "Mango",
+            "Mint Chocolate Chip"
+        ],
+        "price": "4.50"
+    }
+}

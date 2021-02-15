@@ -1,6 +1,4 @@
 .menu {
-    height: 500px;
-    width: auto;
     display: flex;
     flex-direction: column;
     justify-items: center;

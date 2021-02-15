@@ -32,12 +32,8 @@ export default function Gallery() {
                     <div className="conveyer">Conveyer Belt</div>
                     <div className="hotpot">Hotpot</div>
                 </div>
-
-                 <img className="img10" src={img10} />
-
+                <img className="img10" src={img10} />
             </div>
-        </div>
-        
-            
+        </div>    
     )
 }
