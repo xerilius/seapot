@@ -1,0 +1,30 @@
+.number::after {
+ content: ". ";
+}
+.name {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Kavivanar', cursive;
+    letter-spacing: .2rem;
+}
+.description {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    font-family: 'Over the Rainbow', cursive;
+}
+.main-menu-item {
+    padding: 20px 0;
+    width: 450px;
+}
+.menu-header {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: .5rem;
+    margin-bottom: 30px;
+    text-align: center;  
+}
+.menu-header::before, .menu-header::after {
+    content: " — ";
+}

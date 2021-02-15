@@ -26,7 +26,7 @@
         },
         {   "no": 7,
             "name": "Creamy Milk",
-            "description": "Has a white creamy milk and corn taste."
+            "description": "Has a white creamy milk and corn flavor."
         }
     ],
 
@@ -110,7 +110,7 @@
     ],
     
     "drinks": {
-        "tea": [
+        "teas": [
             { 
                 "name": "Green Tea",
                 "price": "1.00"
@@ -140,7 +140,7 @@
                 "price": "1.99"
             }
         ],
-        "juice": [
+        "juices": [
             { 
                 "name": "Cranberry",
                 "price": "2.90"

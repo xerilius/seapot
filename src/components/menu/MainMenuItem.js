@@ -1,12 +1,16 @@
 import React from 'react';
+import './css/MainMenuItem.css';
 
 
-export default function MainMenuItem(props) {
+export default function MainMenuItem( props ) {
     const { number, item, description } = props;
     return (
-        <div>
-            <div>{number} {item}</div>
-            <div>{description}</div>
+        <div className="main-menu-item">
+            <h3>
+                <span className="number">{number}</span> 
+                <span className="name">{item}</span>
+            </h3>
+            <div className="description">{description}</div>
         </div>
     );
 }

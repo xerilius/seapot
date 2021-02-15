@@ -1,33 +1,16 @@
 import React from 'react';
-import MainMenuItem from './MainMenuItem';
-import MENU from '../../data/menu.json';
-
+import SoupBaseMenu from './SoupBaseMenu';
+import MeatMenu from './MeatMenu';
 import './css/HotpotMenu.css';
 
 
-export default function HotpotMenu() {
-    console.log(MENU.soupbases)
+export default function HotpotMenu({ data }) {
     return (
-        <div className="hotpot-menu">
-            <SoupBaseMenu />
-            <MeatMenu />
-        </div>
+        <>
+            <div className="hotpot-menu">
+                <SoupBaseMenu data={data.soupbases} />
+                <MeatMenu data={data.meats} />
+            </div> 
+        </> 
     );
-}
-
-function SoupBaseMenu() {
-    return (
-        <div className="soupbase-menu">
-            <div className="menu-header">Soup Base</div>
-            <MainMenuItem number={1} item={"spicy house soup"} />
-        </div>
-    )
-}
-
-function MeatMenu() {
-    return (
-        <div className="meat-menu">
-             <div className="menu-header">Meat</div>
-        </div>
-    )
 }

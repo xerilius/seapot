@@ -5,23 +5,6 @@ import './Gallery.css';
 
 
 export default function Gallery() {
-    // function buildImageGallery() {
-    //     const gallery = []
-    //     const images = [img1, img7, img10];
-    //     for (let i = 0; i < images.length; i++) {
-    //         gallery.push(
-    //             <div className={`item img${i+1}`}>
-    //                 <img className={`img${i+1}`} src={images[i]} />
-    //                 <div className="item__overlay">
-    //                     <button>View</button>
-    //                 </div>
-    //             </div>
-    //         );
-    //     }
-    //     return gallery
-    // }
-    // const gallery = buildImageGallery();
-
     return (
         <div className="container">
             <div className="gallery">
@@ -35,5 +18,5 @@ export default function Gallery() {
                 <img className="img10" src={img10} />
             </div>
         </div>    
-    )
+    );
 }
