@@ -48,7 +48,7 @@
     margin:0 10px;
     padding: 10px;
 }
-.est {
+.nav-est {
    font-size: 1.5rem;
    padding: 10px;
 }
@@ -72,39 +72,38 @@
 .more-dropdown > * {
     padding: 5px 0;
 }
-.about {
+.nav-about {
     position: relative;
 }
-.home::before,
-.menu::before, 
-.locations::before, 
-.about::before,
-.franchise::before, 
-.locations::before {
+.nav-home::before,
+.nav-menu::before, 
+.nav-locations::before, 
+.nav-about::before,
+.nav-franchise::before {
     content: "";
     position: absolute;
     height: 2px;
     top: 70px;
-    width: 65px;
+    width: 63px;
     background-color:white;
     visibility: visible;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
 }
-.home:hover::before,
-.menu:hover::before, 
-.locations:hover::before, 
-.about:hover::before,
-.franchise:hover::before {
+.nav-home:hover::before,
+.nav-menu:hover::before, 
+.nav-locations:hover::before, 
+.nav-about:hover::before,
+.nav-franchise:hover::before {
     background-color: white;
     visibility: visible;
     transform: scaleX(1);
     z-index: -1;
 }
-.about::before {
+.nav-about::before {
     top: 49px;
 }
-.locations::before, .franchise::before {
+.nav-locations::before, .franchise::before {
     width: 115px;
 }
 .more:hover .more-dropdown{

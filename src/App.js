@@ -1,15 +1,19 @@
 import React from 'react';
-import FooterNav from './components/FooterNav';
-import Gallery from './components/Gallery';
-import Navbar from './components/Navbar';
+import FooterNav from './components/footer/FooterNav';
+import Gallery from './components/gallery/Gallery';
+import Menu from './components/menu/Menu';
+import Navbar from './components/navbar/Navbar';
 import './App.css';
+
 
 function App() {
   return (
     <div className="app">
-      <Navbar /> 
+      <Navbar />
       <Gallery />
+      <Menu />
       <FooterNav />
+      {/* <Footer /> */}
     </div>
   );
 }

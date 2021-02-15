@@ -13,7 +13,7 @@ html {
   background-color: grey;
   background-image: url("./assets/darkwood.png");
   background-position: center; 
-
+  background-attachment: fixed;
 }
 body {
   box-sizing: border-box;

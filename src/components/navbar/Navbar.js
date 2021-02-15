@@ -1,20 +1,20 @@
 import React from 'react';
-import './css/Navbar.css';
+import './Navbar.css';
 
 
 export default function Navbar() {
     return (
         <div className="navbar">
             <div className="navbar-links">
-                <div className="home">Home</div>
-                <div className="about">About</div>
-                <div className="menu">Menu</div>
+                <div className="nav-home">Home</div>
+                <div className="nav-about">About</div>
+                <div className="nav-menu">Menu</div>
             </div>
 
             <div className="logo-container">
                 <div className="logo-main">seapot</div>
                 <div className="logo-sub">海中锅</div>
-                <div className="est"><i class="las la-minus"></i>
+                <div className="nav-est"><i class="las la-minus"></i>
                     <span style={{padding:'0 5px'}}>
                         Est. <i class="las la-fish"></i> 2016 
                     </span>
@@ -23,7 +23,7 @@ export default function Navbar() {
             </div>
 
             <div className="navbar-links">
-                <div className="locations">Locations</div>
+                <div className="nav-locations">Locations</div>
                 <div className="more">
                    More <i class="las la-angle-down"></i> 
                     <div className="more-dropdown">
@@ -34,8 +34,6 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-
-        </div>
-            
+        </div>       
     )
 }

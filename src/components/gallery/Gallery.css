@@ -1,54 +1,23 @@
 .gallery {
-    background: rgba(0, 0, 0, 0.322);
-    /* border: 15px solid rgba(0, 0, 0, 0.274); */
-    border-radius: 10px;
     display: grid;
     grid-gap: 15px;
     width: 1055px;
-    height: 1200px;
+    height:700px;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-auto-flow: dense;
     justify-content: center; 
-    position: relative; 
-}
-.gallery-text {
-    text-transform: uppercase;
-    font-size: 7rem;
-    font-weight: 900;
-    color: white;
-    text-align: center;
-    position: absolute;
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.24), -3px 0px black;
-    /* top:750px; */
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
+    position: relative;  
 }
 .img1 {
     grid-column: span 3;
-    grid-row: span 7;
+    grid-row: span 4;
     height: 100%;
     width: 100%;
 }
-.img2 {
-    grid-column: span 3;
-}
-.img3 {
+.img10 {
     grid-column: span 2;
-}
-.img5 {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-.img7 {
-    grid-column: span 3;
-    grid-row: span 2;
-}
-.blank {
-    grid-column: span 2;
-    grid-column: span 5;
-
+    grid-row:  span 2;
 }
 img {
     height: 100%;
@@ -65,11 +34,6 @@ img {
     text-transform: uppercase;
     font-size: 10rem;
     font-weight: bolder;
-}
-.divider {
-    border-top: 10px solid white;
-    width: 90%;
-    height: 50px;
 }
 .normal {
     font-weight: normal;
@@ -89,33 +53,44 @@ img {
 .overlay.open {
     display: grid;
 }
-
-.gallery-txt {
+.gallery-text {
+    position: relative;
+    top: -20px;
     color: white;
-    font-size: 6rem;
+    font-size: 6.5rem;
     font-weight: 700;
     text-transform: uppercase;
     grid-column: span 2;
-    grid-row: span 7;
-    padding: 10px;
+    grid-row: span 2;
     font-family: 'Oswald', sans-serif;
-    align-self: flex-end;
+    align-self: start;
+    
 }
-
+.gallery-text > * {
+    padding: 5px 0;
+}
+.ayce {
+    border-bottom: 5px solid white;
+}
 .tapas {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
     text-transform: capitalize;
     font-weight: normal;
+    letter-spacing: .5rem;
+    font-size: 6.2rem;
+    
 }
 .conveyer {
     font-family: 'Montserrat', sans-serif;
-      text-transform: capitalize;
+      text-transform: uppercase;
       font-weight: normal;
-      font-size: 4rem;
+      font-size: 4.1rem;
+      letter-spacing: .5rem;
 }
 .hotpot {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
-    letter-spacing: 2rem;
+    letter-spacing: 2.7rem;
+    text-align: center;
 }
