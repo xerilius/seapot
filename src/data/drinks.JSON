@@ -1,0 +1,114 @@
+{
+    "tea": [
+        { 
+            "name": "Green Tea",
+            "price": "1.00"
+        },
+        { 
+            "name": "Rice Tea",
+            "price": "1.25"
+        },
+        { 
+            "name": "Thai Tea",
+            "price": "3.00"
+        },
+        { 
+            "name": "Herbal Tea",
+            "price": "2.50"
+        },
+        { 
+            "name": "Chrysanthemum Tea",
+            "price": "2.50"
+        },
+        { 
+            "name": "Lemon Iced Tea",
+            "price": "3.50"
+        },
+        { 
+            "name": "Raspberry Iced Tea",
+            "price": "1.99"
+        }
+    ],
+
+    "juice": [
+        { 
+            "name": "Cranberry",
+            "price": "2.90"
+        },
+        { 
+            "name": "Orange",
+            "price": "2.90"
+        },
+        { 
+            "name": "Mango",
+            "price": "3.90"
+        },
+        { 
+            "name": "Apple",
+            "price": "2.90"
+        },
+        { 
+            "name": "Winter Melon",
+            "price": "3.00"
+        },
+        { 
+            "name": "Sour Plum",
+            "price": "3.00"
+        },
+        { 
+            "name": "Honey Pomelo",
+            "price": "3.50"
+        },
+        { 
+            "name": "Sweet Pear",
+            "price": "3.50"
+        },
+        { 
+            "name": "Coconut",
+            "price": "4.90"
+        }
+    ],
+
+    "fountain": [
+        { 
+            "name": "Pepsi",
+            "price": "1.99"
+        },
+        { 
+            "name": "Diet Pepsi",
+            "price": "1.99"
+        },
+        { 
+            "name": "Dr. Pepper",
+            "price": "1.99"
+        },
+        { 
+            "name": "Sprite",
+            "price": "1.99"
+        },
+        { 
+            "name": "Ginger Ale",
+            "price": "1.99"
+        },
+        { 
+            "name": "Lemonade",
+            "price": "1.99"
+        },
+        { 
+            "name": "Fanta",
+            "price": "1.99"
+        }
+    ],
+    "dessert" : {
+        "macaron": [
+            "Cookies 'N Cream", 
+            "Strawberry Shortcake",
+            "Salted Caramel",
+            "Coffee Hazelnut",
+            "Passion Fruit",
+            "Mango",
+            "Mint Chocolate Chip"
+        ],
+        "price": "4.50"
+    }
+}

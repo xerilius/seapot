@@ -1,0 +1,32 @@
+{
+    "soupbase" : [
+        {   "no": 1,
+            "name": "Spicy House Soup",
+            "description": "Made from high quality red chilli peppers, spices and Sichuan peppercorns. Taste of Sichuan style, you can also adjust the level of spiceness."
+        },
+        {   "no": 2,
+            "name": "Miso Soup",
+            "description": "We took a classic miso soup recipe and gave it a twist of our own. Our miso soup is packed with the same great umami flavor, but with even more nutrients from our chicken bone broth."
+        },
+        {   "no": 3,
+            "name": "Healthy Herb Soup",
+            "description": "Chinese herbs boiled in a broth that was made with chicken bones that have been boiled down until the dissolve into a cloudy white broth."
+        },
+        {   "no": 4,
+            "name": "Thai Pot (Vegetarian, Spicy)",
+            "description": "Tom yum is characterized by its distinct hot and sour flavors, with fragrant thai spices and herbs generously used in the broth. The basic broth is made up of stock and fresh ingredients such as lemongrass, kaffir lime leaves, galangal, lime juice and crushed chili peppers."
+        },
+        {   "no": 5,
+            "name": "Tomato Soup",
+            "description": "Organic tomato soup gives you a sweet an sour taste, great for vegetarians."
+        },
+        {   "no": 6,
+            "name": "Curry Pot",
+            "description": "Curry pot is a sweet and spicy paste blend made with tumeric and curry powder pounded together with coriander, cumin, lemongrass, galangal, mixed with a bone broth."
+        },
+        {   "no": 7,
+            "name": "Creamy Milk",
+            "description": "Has a white creamy milk and corn taste."
+        }
+    ]
+}

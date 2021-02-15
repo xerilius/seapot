@@ -1,0 +1,32 @@
+{
+    "meat": [
+        {   "no": 1,
+            "name": "Chicken Breast",
+            "description": "Thinly sliced free range chicken breast."
+        },
+        {   "no": 2,
+            "name": "Pork Belly",
+            "description": "Thinly sliced and has a nice balance of red meat and fat."
+        },
+        {   "no": 3,
+            "name": "100% Berkshire Pork",
+            "description": "Thinly sliced kurobuto. Leaner but tender. All natural - no hormones and no antibiotics."
+        },
+        {   "no": 4,
+            "name": "New Zealand Lamb",
+            "description": "Thinly sliced, grass fed boneless lamb."
+        },
+        {   "no": 5,
+            "name": "Beef Toro",
+            "description": "All-natural angus beef from Morgan Family's ranch."
+        },
+        {   "no": 6,
+            "name": "Ribeye",
+            "description": "Chef's top selection of natural ribeye which has less fat and a good amount of red meat."
+        },
+        {   "no": 7,
+            "name": "Angus Prime",
+            "description": "100% All-natural. Raised without antibiotics and no  growth hormones. Tender and tasty."
+        }
+    ]
+}

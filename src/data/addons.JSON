@@ -1,0 +1,49 @@
+{
+    "addons": [
+        { 
+            "name": "Live Lobster",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Live Fish",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Abalone",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Live Dungeness Crab",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Lobster Tail",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Clam",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Live Prawn",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Stone Crab",
+            "chinese": "",
+            "price": "MP"  
+        },
+        { 
+            "name": "Snow Crab Leg",
+            "chinese": "",
+            "price": "MP"  
+        }
+    ]
+}
