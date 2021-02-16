@@ -5,13 +5,13 @@ import './css/DrinkMenu.css';
 
 export default function DrinkMenu({ data }) {
    const teas = data.teas.map(i => 
-        <ExtraMenuItem item={i.name} price={i.price} />
+        <ExtraMenuItem key={i.name} item={i.name} price={i.price} />
     );
     const juices = data.juices.map(i => 
-        <ExtraMenuItem item={i.name} price={i.price} />
+        <ExtraMenuItem key={i.name} item={i.name} price={i.price} />
     );
     const fountainDrinks = data.fountain.map( i =>
-        <ExtraMenuItem item={i.name} price={i.price} />
+        <ExtraMenuItem key={i.name} item={i.name} price={i.price} />
     );
 
     return (

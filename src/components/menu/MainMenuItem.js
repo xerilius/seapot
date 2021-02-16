@@ -4,6 +4,7 @@ import './css/MainMenuItem.css';
 
 export default function MainMenuItem( props ) {
     const { number, item, description } = props;
+    
     return (
         <div className="main-menu-item">
             <h3>

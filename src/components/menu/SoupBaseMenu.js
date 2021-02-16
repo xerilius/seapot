@@ -5,6 +5,7 @@ import MainMenuItem from './MainMenuItem';
 export default function SoupBaseMenu({ data }) {
     const soupBases = data.map(i => 
         <MainMenuItem 
+            key={i.name}
             number={i.no} 
             item={i.name} 
             description={i.description} 
@@ -12,9 +13,9 @@ export default function SoupBaseMenu({ data }) {
     );
     
     return (
-        <div className="soupbase-menu">
+        <div>
             <div className="menu-header">Soup Base</div>
-            {soupBases}
+            <div>{soupBases}</div>
         </div>
     );
 }

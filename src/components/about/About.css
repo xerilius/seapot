@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.section-content {
+    width: 1100px;
+    font-size: 2rem;
+} 
+
+.section-content > * {
+    padding: 20px 0;
+}
+.chinese > *, .english > * {
+    padding-bottom: 10px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+}
+.img {
+    height: 700px;
+    width: auto;
+}
+.about-container {
+    width: 1100px;   
+}
+.chinese {
+    padding-left: 10px;
+}
+.english {
+    padding-top: 10px;
+}

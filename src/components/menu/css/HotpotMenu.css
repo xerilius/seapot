@@ -1,11 +1,11 @@
 .hotpot-menu {
     display: flex;
+    justify-content: center;
+    flex-direction: row;
     color: rgba(255, 255, 255, 0.74);
-    width: 1100px;
-    margin: 0 0;
+    width: auto;
     border-bottom: 1px solid white;
 }
-
-.hotpot-menu > div {
-    margin: 20px 50px;
+.hotpot-menu > * {
+    margin: 20px 35px;
 }

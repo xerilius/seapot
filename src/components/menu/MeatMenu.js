@@ -5,6 +5,7 @@ import MainMenuItem from './MainMenuItem';
 export default function MeatMenu({ data }) {
     const meats = data.map(i => 
         <MainMenuItem
+            key={i.name}
             number={i.no} 
             item={i.name} 
             description={i.description} 
@@ -12,9 +13,9 @@ export default function MeatMenu({ data }) {
     );
 
     return (
-        <div className="meat-menu">
-             <div className="menu-header">Meat</div>
-                {meats}
+        <div>
+            <div className="menu-header">Meat</div>
+            <div>{meats}</div>
         </div>
     );
 }

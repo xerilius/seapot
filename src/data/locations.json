@@ -1,0 +1,23 @@
+{
+    "locations": {
+        "sanmateo": {
+            "name": "Seapot San Mateo",
+            "address1": "1952 S. EL CAMINO REAL",
+            "address2": "SAN MATEO, CA 94403",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.8191017628563!2d-122.31142937079917!3d37.548551098737576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDMyJzU0LjgiTiAxMjLCsDE4JzM5LjIiVw!5e0!3m2!1sen!2sus!4v1613474467353!5m2!1sen!2sus",
+            "hours": {
+                "MR": ["11AM - 3PM",  "5PM - 9:30PM"],
+                "F": ["11AM - 3PM",  "5PM - 10PM"],
+                "SS": ["11AM - 10PM"],
+                "Holiday": ["11AM - 10PM"]
+            }
+        },
+        "sunnyvale": {
+            "name": "Seapot Sunnyvale",
+            "address1": "740 E. EL CAMINO REAL",
+            "address2": "SUNNYVALE, CA 94O87",
+            "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.347891207722!2d-122.02354978512481!3d37.35794437983754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDIxJzI4LjYiTiAxMjLCsDAxJzE2LjkiVw!5e0!3m2!1sen!2sus!4v1613474636943!5m2!1sen!2sus",
+            "hours": ""
+        }
+    }
+}

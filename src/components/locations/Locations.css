@@ -1,0 +1,21 @@
+.map {
+    width: 500px;
+    height: 500px;
+    border: 0;
+}
+.location {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.274);
+    padding: 50px;
+}
+.location-container {
+    display: flex;
+    flex-direction: row;
+}
+.location-container > * {
+    padding: 20px 35px;
+}

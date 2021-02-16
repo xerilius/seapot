@@ -1,5 +1,5 @@
 .add-ons {
-    margin: 50px auto;
+    padding: 50px;
     border-bottom: 1px solid white;
 }
 .menu-addons {
@@ -12,8 +12,4 @@
     padding: 10px 0 30px 0;
     font-size: 2.5rem;
     font-family: 'Kavivanar', cursive;
-}
-.add-ons--container {
-    width: 1100px;
-    margin: 50px auto;
 }

@@ -4,20 +4,27 @@
     justify-items: center;
     align-items: center;
     padding: 100px 0;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(255, 255, 255, 0.74); 
+    font-family: 'Kavivanar', cursive; 
 }
 .menu-container {
+    width: 1100px;
     background-color: black;
     height: auto;
-    padding: 50px 25px;
-    border: 20px ridge burlywood;
+    padding: 50px 55px;
+    border: 15px ridge burlywood;
+}
+.menu-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .menu-container > * {
-    margin: 20px 25px;
+    margin: 20px 0px;
 }
 .header-2 {
     font-family: 'Over the Rainbow', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 .menu-title {
@@ -32,7 +39,7 @@
 }
 .menu-super {
     position: relative;
-    right: -185px;
+    right: -167px;
     bottom: -30px;
     font-size: 3rem;
 }
