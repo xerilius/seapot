@@ -3,7 +3,7 @@ import './FooterNav.css';
 
 export default function Footer() {
     return (
-        <div className="footer">
+        <div className="footer-nav">
             <div className="media">
                 <a href="https://www.facebook.com/pg/seapot/posts/">
                     <i className="lab la-facebook-f la-2x"></i>
