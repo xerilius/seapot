@@ -7,5 +7,5 @@ export default function Footer() {
         <div className="footer">
             © 2021 SEAPOT
         </div>
-    )
+    );
 }
