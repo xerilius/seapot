@@ -20,15 +20,15 @@ export default function DrinkMenu({ data }) {
            <div className="drinks-container">
             <div>
                 <div className="header-2">Teas</div>
-                {teas}
+                <div style={{width:'400px'}}>{teas}</div>
             </div>
             <div>
                 <div className="header-2">Juices</div>
-                {juices}
+                <div style={{width:'350px'}}>{juices}</div>
             </div>
             <div>
                 <div className="header-2">Fountain Drinks</div>
-                {fountainDrinks}
+                <div style={{width:'270px'}}>{fountainDrinks}</div>
             </div>
            </div>
           
